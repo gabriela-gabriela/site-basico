@@ -13,9 +13,12 @@
     </header>
 
     <section class="hero">
-        <div class="box-lista">
+        <div class="box-comando">
             <span>Marque as atividades que você fez:</span>
-            <ul>
+
+        </div>
+        <div class="box-lista">
+            <ul id="lista-atividades">
                 <li>
                     <input type="checkbox" id"todo1">
                     <label for="todo1">Aprender programação web</label>
@@ -25,8 +28,13 @@
                     <label for"todo2">Estudar analise assintotica de algoritimos recursivos</label>
                 </li>
             </ul>
+
+             <input type="text" id="campo-atividade" placeholder="Digite a atividade que você deseja adiconar a to do list...">
+            <button onclick="addAtividade()">Adicionar</buttom>
         </div>
     </section>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
