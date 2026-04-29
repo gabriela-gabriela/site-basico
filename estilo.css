@@ -43,3 +43,21 @@ header span{
     width: 70%;
     border: 1px solid white;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px dotted #081ca0
+}
+
+input:checked + label {
+    text-decoration: line-through;
+    color: #081ca0;
+}
